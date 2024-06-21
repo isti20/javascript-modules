@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Default Class</title>
+  </head>
+  <body>
+    <script type="module">
+      import { default as Person } from "./scripts/default-class.js";
+    //   import Person from "./scripts/default-class.js";
+
+      const person = new Person("Eko");
+      person.sayHi(); // Hi, my name is Eko
+    </script>
+  </body>
+</html>
